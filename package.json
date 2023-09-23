@@ -1,8 +1,11 @@
 {
-  "name": "graphviz-diff",
+  "name": "dot-diff",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "dot-diff": "./your-script.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
